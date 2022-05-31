@@ -1,0 +1,181 @@
+body {
+    background: #d1dedd;
+    margin: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+@media only screen and (max-width: 600px) {
+    header {
+        max-width: 600px;
+        padding: 20px;
+        margin: 30px;
+        border-bottom: 2px solid #bbc7c7;
+        font-family: 'Blaka', cursive;
+    }
+    footer {
+        border-top: 2px solid #bbc7c7;
+        max-width: 600px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        margin: 0 auto;
+        color: #767f7e;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    header {
+        max-width: 300px;
+        padding: 20px;
+        margin: 30px;
+        border-bottom: 2px solid #bbc7c7;
+        font-family: 'Blaka', cursive;
+    }
+    footer {
+        max-width: 300px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        margin: 0 auto;
+        color: #767f7e;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    header {
+        max-width: 980px;
+        padding: 20px;
+        margin: 30px;
+        border-bottom: 2px solid #bbc7c7;
+        font-family: 'Blaka', cursive;
+    }
+    footer {
+        border-top: 2px solid #bbc7c7;
+        max-width: 980px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        margin: 0 auto;
+        color: #767f7e;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 35px;
+        max-width: 980px;
+    }
+    article {
+        grid-column: span 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+}
+
+h1 {
+    color: #767f7e;
+    font-family: 'Blaka', cursive;
+}
+
+header {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 30px;
+    border-bottom: 2px solid #bbc7c7;
+    font-family: 'Blaka', cursive;
+}
+
+h2,
+h3 {
+    color: #767f7e;
+    font-family: 'Blaka', cursive;
+    font-size: large;
+    font-weight: bold;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+img {
+    transition: all 0.3s;
+    width: 100%;
+    height: 70%;
+    border: 4px solid #fff;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.gap {
+    height: 4em;
+}
+
+footer {
+    border-top: 2px solid #bbc7c7;
+    max-width: 1200px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin: 0 auto;
+    color: #767f7e;
+}
+
+.button:hover {
+    background: #FFC75F;
+    border: #FFC75F;
+    color: #bbc7c7;
+    text-align: center;
+}
+
+.button {
+    color: #d1dedd;
+    width: 100px;
+    border: #FF6F91;
+    text-align: center;
+    background: linear-gradient(to right top, #ff6f91, #ff7689, #ff7d81, #ff847b, #ff8c76, #ff9372, #ff9a6e, #ffa16b, #ffaa67, #ffb363, #ffbd61, #ffc75f);
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    max-width: 1200px;
+}
+
+p,
+h3 {
+    margin: 40px;
+}
+
+.focus {
+    align-items: center;
+    display: grid;
+    grid-column: span 3;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 4px solid #bbc7c7;
+}
